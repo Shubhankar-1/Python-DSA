@@ -6,7 +6,7 @@ class Solution:
         for num in nums[1:]:
             print("\n\nCS - ", current_sum)
 
-            current_sum = max(num, current_sum+num) #if num
+            current_sum = max(num, current_sum+num) 
             print("maxCur - ", current_sum)
             
             max_sum = max(current_sum, max_sum)
