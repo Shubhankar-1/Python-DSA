@@ -1,6 +1,6 @@
 import collections
 class Solution:
-    def firstUniqChar(s: str) -> int:
+    def firstUniqChar(self, s: str) -> int:
         dict = {}
         removed_items = {}
         for x in range(len(s)):
@@ -17,8 +17,7 @@ class Solution:
 
 
 if __name__ == "__main__":
-    s = Solution
-    result = s.firstUniqChar(
-        s="aadadaud")
+    s = Solution()
+    result = s.firstUniqChar(s="aadadaud")
     print(result)
     
