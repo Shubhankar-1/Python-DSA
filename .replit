@@ -1,0 +1,6 @@
+modules = ["python-3.12", "java-graalvm22.3"]
+
+entrypoint = "Recursion/Sort_stack_using_recursion.py"
+
+[nix]
+channel = "stable-24_05"
