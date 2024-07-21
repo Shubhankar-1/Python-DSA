@@ -1,6 +1,3 @@
-from xmlrpc.client import Boolean
-
-
 class LinkedList:
     def __init__(self, data=None, next=None) -> None:
         self.data = data
@@ -14,7 +11,7 @@ class Queue:
         self.rear = None
         self.count = 0
 
-    def isEmpty(self) -> Boolean:
+    def isEmpty(self) -> bool:
         return self.front == None
 
     def print(self) -> None:
