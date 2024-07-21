@@ -21,9 +21,8 @@ def insert(stack, element):
 		stack.append(element)
 
 
-if __name__ == "__main__":
-	stac = [6, 2, 3, 5, 1]
-	print(stac)
-	sort(stac)
+stac = [6, 2, 3, 5, 1,8]
+print(stac)
+sort(stac)
 
-	print(stac)
+print(stac)
